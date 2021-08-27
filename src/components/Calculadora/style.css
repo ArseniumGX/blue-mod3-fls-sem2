@@ -1,0 +1,52 @@
+main{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+label{
+    text-transform: uppercase;
+    font-style: 700;
+    letter-spacing: .1rem;
+    margin-bottom: .2rem;
+}
+
+input{
+    opacity: 1;
+    align-self: center;
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    border: none;
+    border-bottom: .1rem solid #000;
+    appearance: textfield;
+}
+
+hr{
+    border: .1rem solid #000;
+    margin: 1rem;
+    width: 34vw
+}
+
+p{
+    margin: .3rem;
+}
+
+span{
+    font-weight: 700;
+
+}
